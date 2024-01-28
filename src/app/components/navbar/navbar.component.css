@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.username {
+    padding-right: 16px;
+    /* adjust this value as needed */
+    font-size: 16px;
+    /* adjust this value as needed */
+}

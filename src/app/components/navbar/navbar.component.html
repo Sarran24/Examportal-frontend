@@ -1,0 +1,58 @@
+<mat-toolbar color="primary">
+  <a
+    routerLink=""
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu_book</mat-icon>
+  </a>
+  <span>Examportal</span>
+  <span class="example-spacer"></span>
+  <a
+    *ngIf="!isloggedIn"
+    [routerLink]="'/login'"
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with  heart icon"
+    matTooltip="Login"
+  >
+    <mat-icon>login</mat-icon>
+  </a>
+  <a
+    *ngIf="!isloggedIn"
+    [routerLink]="'/signup'"
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-lable="Example icon-button with share icon"
+    matTooltip="Register"
+  >
+    <mat-icon>app_registration</mat-icon>
+  </a>
+
+  <a
+    *ngIf="isloggedIn && user"
+    mat-icon-button
+    [routerLink]="
+      user.authorities[0].authority === 'ADMIN'
+        ? '/admin/profile'
+        : '/user/homepage'
+    "
+    class="example-icon favorite-icon username"
+    aria-label="Example icon-button with share icon"
+  >
+    {{ user.username }}
+  </a>
+
+  <a
+    (click)="logout()"
+    *ngIf="isloggedIn"
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-lable="Example icon-button with share icon"
+    matTooltip="logout"
+    style="margin-left: 50px"
+  >
+    <mat-icon>exit_to_app</mat-icon>
+  </a>
+</mat-toolbar>

@@ -1,0 +1,45 @@
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt10 {
+    margin-top: 4px;
+}
+
+.ml5 {
+    margin-left: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.textcenter {
+    display: flex;
+    justify-content: center;
+}
+
+.mat-card-title {
+    margin: 0 auto;
+    display: block;
+}
+
+.ml10 {
+    margin-left: 20px;
+}
+
+.mt75 {
+    margin-top: 70px;
+}
+
+.ma {
+    margin: auto;
+}
+
+.mt4 {
+    margin-top: 10px
+}

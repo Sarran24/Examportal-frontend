@@ -1,0 +1,54 @@
+html,
+body {
+  height: auto;
+  background-color: #E1F5FE !important;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-card {
+  background-color: #E1F5FE;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bootstrap-wrapper {
+  overflow: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.my-body-class {
+  background-color: #E1F5FE;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  margin: auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-group-right {
+  margin-right: 20px;
+}
+
+.mat-card {
+  padding: 20px;
+}
+
+.mat-card {
+  background-color: #fff;
+}

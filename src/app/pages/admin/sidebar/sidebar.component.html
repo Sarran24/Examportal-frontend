@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-action-list>
+    <div mat-subheader>Menu</div>
+    <button routerLink="/admin" mat-list-item class="menu-item">
+      <mat-icon class="menu-icon">home</mat-icon>
+      <span class="menu-text">Home</span>
+    </button>
+    <button mat-list-item class="menu-item" routerLink="/admin/profile">
+      <mat-icon class="menu-icon">account_circle</mat-icon>
+      <span class="menu-text">Profile</span>
+    </button>
+    <button mat-list-item class="menu-item" routerLink="/admin/categories">
+      <mat-icon class="menu-icon">list</mat-icon>
+      <span class="menu-text">Categories</span>
+    </button>
+    <button mat-list-item class="menu-item" routerLink="/admin/add-category">
+      <mat-icon class="menu-icon">add_circle</mat-icon>
+      <span class="menu-text">Add Categories</span>
+    </button>
+    <button mat-list-item class="menu-item" routerLink="/admin/quizzes">
+      <mat-icon class="menu-icon">quiz</mat-icon>
+      <span class="menu-text">Quizzes</span>
+    </button>
+    <button mat-list-item class="menu-item" routerLink="/admin/add-quiz">
+      <mat-icon class="menu-icon">add</mat-icon>
+      <span class="menu-text">Add Quizzes</span>
+    </button>
+  </mat-action-list>
+</mat-card>

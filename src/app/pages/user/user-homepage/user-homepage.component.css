@@ -1,0 +1,27 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+mat-card {
+    width: 400px;
+    padding: 20px;
+}
+
+mat-card-header {
+    text-align: center;
+}
+
+mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+mat-card-content {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+}

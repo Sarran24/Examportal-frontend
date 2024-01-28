@@ -1,0 +1,16 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+}
+
+.menu-icon {
+    vertical-align: middle;
+}
+
+.menu-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}

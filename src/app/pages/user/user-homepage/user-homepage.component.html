@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Angular Material styles -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom styles -->
+    <style>
+      .custom-bg {
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      .custom-bg p {
+        background-color: #ffffff;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body class="mat-typography">
+    <div class="container">
+      <mat-card class="custom-bg">
+        <mat-card-header>
+          <mat-card-title> Welcome to Quiz Portal </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            In this website you can select the quiz based on the category and
+            challenge yourself
+          </p>
+          <button mat-raised-button color="primary">Get Started</button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <!-- Angular Material scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

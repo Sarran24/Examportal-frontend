@@ -1,0 +1,69 @@
+<mat-card>
+  <h1>Your Profile Details</h1>
+  <mat-card-content>
+    <div class="bootstrap-wrapper">
+      <div class="container">
+        <div class="container text-center">
+          <a>
+            <img [src]="profileImage" alt="" class="profile-image" />
+          </a>
+          <h1 class="mt20">{{ user.firstName }} {{ user.lastName }}</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <table class="table text-center">
+              <tr>
+                <td>Username</td>
+                <td>{{ user.username }}</td>
+              </tr>
+              <tr>
+                <td>UserId</td>
+                <td>{{ user.id }}</td>
+              </tr>
+              <tr>
+                <td>First Name</td>
+                <td>{{ user.firstName }}</td>
+              </tr>
+              <tr>
+                <td>Last Name</td>
+                <td>{{ user.lastName }}</td>
+              </tr>
+              <tr *ngIf="user.email">
+                <!-- *ngIf will check that if value is null so it will remove that
+                row -->
+                <td>Email</td>
+                <td>{{ user.email }}</td>
+              </tr>
+              <tr *ngIf="user.phone">
+                <td>Phone</td>
+                <td>{{ user.phone }}</td>
+              </tr>
+              <tr>
+                <td>Role</td>
+                <td>{{ user.authorities[0].authority }}</td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td>{{ user.enabled ? "ACTIVE" : "NOTACTIVE" }}</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions style="display: flex; justify-content: center">
+    <button
+      [routerLink]="'/admin/update-admin/' + user.username"
+      mat-raised-button
+      color="primary"
+      style="margin-right: 10px"
+    >
+      Update
+    </button>
+    <button mat-raised-button color="accent" style="margin-left: 10px">
+      Share
+    </button>
+  </mat-card-actions>
+</mat-card>

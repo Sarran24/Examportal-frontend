@@ -26,9 +26,12 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "bootstrap-filestyle/src/bootstrap-filestyle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,12 +92,16 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap-grid-only-css/dist/css/bootstrap-grid.min.css"
             ],
-            "scripts": []
-          }
+            "scripts": [
+              "bootstrap-filestyle/src/bootstrap-filestyle.min.js"
+            ]
+          
         }
       }
     }
   }
+}
 }

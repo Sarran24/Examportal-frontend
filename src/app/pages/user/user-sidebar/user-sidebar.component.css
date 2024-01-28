@@ -1,0 +1,58 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
+}
+
+.menu-icon {
+    vertical-align: middle;
+}
+
+.menu-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+
+    margin-top: 20px;
+}
+
+.mtn10 {
+    margin-top: -10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.truncate {
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+.example-header-image {
+    background-image: url("../../../../assets/choose.png");
+    background-size: cover;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.ml20 {
+    margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+<mat-card>
+  <mat-action-list>
+    <div>
+      <mat-card-subtitle class="ml20">All Categories</mat-card-subtitle>
+    </div>
+    <button
+      [routerLink]="'/user/' + '0' + '/' + user.username"
+      mat-list-item
+      class="menu-item"
+    >
+      <mat-icon class="menu-icon">filter_list</mat-icon>
+      <span class="menu-text">All Quizzes</span>
+    </button>
+    <button
+      *ngFor="let c of categories"
+      mat-list-item
+      class="menu-item"
+      [routerLink]="'/user/' + c.cid + '/' + user.username"
+    >
+      <mat-icon class="menu-icon">category</mat-icon>
+      <span class="menu-text">{{ c.title }}</span>
+    </button>
+  </mat-action-list>
+</mat-card>

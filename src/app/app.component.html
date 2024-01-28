@@ -1,1 +1,16 @@
-<h1>welcome to TestYourSelf website</h1>
+<!-- if you want to add navbar here it will apply to every component no need to implement in every component individual -->
+<ngx-spinner></ngx-spinner>
+
+<ngx-ui-loader
+  fgsColor="#3f51b5"
+  pbColor="#3f51b5"
+  text="Please Wait..."
+></ngx-ui-loader>
+
+<div ngxUiLoaderBlurred (blur)="(10)">
+  <!-- This page content will be blurred/frosted when foreground loader is showed -->
+  <app-navbar></app-navbar>
+
+  <!-- dynamic content -->
+  <router-outlet></router-outlet>
+</div>

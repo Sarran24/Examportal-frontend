@@ -1,0 +1,71 @@
+.bootstrap-wrapper {
+    height: 100%;
+    background-color: #E1F5FE !important;
+}
+
+.custom-card {
+    background-color: #E1F5FE;
+    /* set your desired background color here */
+}
+
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-group-right {
+    margin-right: 20px;
+}
+
+.ml20 {
+    margin-left: 20px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mat-card {
+    padding: 20px;
+}

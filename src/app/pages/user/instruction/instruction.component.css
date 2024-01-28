@@ -1,0 +1,36 @@
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mt20 {
+
+    margin-top: 20px;
+}
+
+.mtn10 {
+    margin-top: -10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+
+.example-header-image {
+    background-image: url("../../../../assets/choose.png");
+    background-size: cover;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.textcenter {
+    display: flex;
+    justify-content: center;
+}

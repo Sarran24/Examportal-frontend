@@ -1,0 +1,84 @@
+.w100 {
+    width: 100%;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.from-lable {
+    font-weight: bold;
+}
+
+
+/* .mt15 {
+    margin-top: 15px;
+} */
+/* Styling for Bootstrap file input component */
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    margin-bottom: 0;
+}
+
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    opacity: 0;
+}
+
+.custom-file-input:focus~.custom-file-label {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.custom-file-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: calc(2.25rem + 2px - 2 * 0.375rem);
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    color: #495057;
+    content: "Choose file";
+    background-color: #e9ecef;
+    border-left: inherit;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
